@@ -23,7 +23,7 @@ public class UserTester {
     @Test
     public void testConstructorRankProgressStartsAtZero() {
         setUp();
-        assertEquals(0,user.getProgress(), "Ensure that a new user starts weith a rank progress of 0!");
+        assertEquals(0,user.getProgress(), "Ensure that a new user starts ith a rank progress of 0!");
         tearDown();
     }
 
